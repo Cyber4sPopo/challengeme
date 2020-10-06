@@ -7,7 +7,7 @@
 - create new db for development - default name is `challenge` (can change by .env file)
 - run migration: `npm run migrate` (in server folder)
 - run seeds `npx sequelize db:seed:all`
-- change NAME_OF_YOUR_ENV in .env file
+- change ENV_NAME in .env file
 
 Only once - init
 - enable Github actions in your forked repo - go to https://github.com/{owner}/{repoName}/actions and press "I understand my workflows, go ahead and enable them"
